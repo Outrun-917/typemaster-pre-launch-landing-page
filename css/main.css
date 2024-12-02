@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+  color: #162542;
+}
+
+body {
+    padding: 24px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-cta {
+    font-weight: 700;
+    text-decoration: none;
+    padding: 12px 14px;
+    background-color: #E8EFF2;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+
+.hero {
+    margin-bottom: 64px;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+
+.main-title-description {
+    color: #7B8BAD;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 44px;
+}
+
+.hero div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-cta {
+    font-weight: 700;
+    text-decoration: none;
+    padding: 12px 14px;
+    color: #FFFFFF;
+    background-color: #F16718;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+
+.hero-release-date {
+    color: #7B8BAD;
+    font-weight: 700;
+}
+
+.keyboard,
+.keyboard-phone,
+.keyboard-glass {
+    overflow: hidden;
+}
